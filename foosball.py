@@ -55,3 +55,8 @@ print("New list", foosballers)
 # - Otto is 8th best in the league
 
 # - Chauncey is 10 spots from the bottom of the league
+foosballers.insert( foosballers.index("Hubert"), "Lucy")
+foosballers.insert( foosballers.index("Rebecca")+1, "Omar")
+foosballers.insert( 7, "Otto")
+foosballers.insert( -10, "Chauncey")
+print("Question 7: \n", foosballers) 

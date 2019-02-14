@@ -27,3 +27,5 @@ print("Featiring: \n =-=-=-=-=-= \n")
 for index in range(len(actors)):
   print(actors[index], "as", roles[index])
 
+a = enumerate(actors)
+print(list(a))
